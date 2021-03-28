@@ -7,11 +7,9 @@ def master():
   f.close()
   last = len(quotes) - 1 
   rnd = random.randint(0, last)
-  quotes = quotes.rstrip("\n")
   for x in range(3):
     x = x + 1
-    
-    print(quotes[x])
+    print(quotes[x]),
   
 
 if __name__== "__main__":
