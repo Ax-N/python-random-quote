@@ -7,8 +7,10 @@ def master():
   f.close()
   last = len(quotes) - 1 
   rnd = random.randint(0, last)
+  for(i = 0; i < 2; i++){
   print(quotes[rnd])
-  #print(quotes[13])
+  }
+  
   
 
 if __name__== "__main__":
