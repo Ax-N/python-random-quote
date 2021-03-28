@@ -8,7 +8,8 @@ def master():
   last = len(quotes) - 1 
   rnd = random.randint(0, last)
   for x in range(3):
-    print(quotes[rnd])
+    x = x + 1
+    print(quotes[x])
   
   
 
