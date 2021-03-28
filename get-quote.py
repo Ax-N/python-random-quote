@@ -7,7 +7,7 @@ def master():
   f.close()
   last = len(quotes) - 1 
   rnd = random.randint(0, last)
-  for x in range(3)
+  for x in range(3):
     print(quotes[rnd])
   
   
