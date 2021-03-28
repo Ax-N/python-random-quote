@@ -7,9 +7,10 @@ def master():
   f.close()
   last = len(quotes) - 1 
   rnd = random.randint(0, last)
+  quotes = quotes.rstrip("\n")
   for x in range(3):
     x = x + 1
-    quotes.rstrip("\n")
+    
     print(quotes[x])
   
 
