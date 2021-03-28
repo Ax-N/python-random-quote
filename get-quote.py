@@ -9,8 +9,8 @@ def master():
   rnd = random.randint(0, last)
   for x in range(3):
     x = x + 1
+    quotes.rstrip("\n")
     print(quotes[x])
-  
   
 
 if __name__== "__main__":
