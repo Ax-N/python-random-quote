@@ -12,3 +12,5 @@ Favor focus over features
 Avoid administrative distraction
 Design for failure
 Keep it logically awesome
+Call me King!
+Do not Fear! FOR I AM HERE!!!
