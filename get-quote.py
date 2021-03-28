@@ -9,8 +9,8 @@ def master():
   rnd = random.randint(0, last)
   for x in range(3):
     x = x + 1
-    print(quotes[x], end ='@')
-  
+    print(quotes[x])
+   break 
 
 if __name__== "__main__":
   master()
